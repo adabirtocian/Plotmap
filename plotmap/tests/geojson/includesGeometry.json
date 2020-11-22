@@ -1,0 +1,10 @@
+{
+     "name": "test",
+     "shape": {
+       "geometry": {
+                "type": "Point",
+                "coordinates": [23.57666015625,  46.81509864599243]
+             }
+     },
+      "model": "test"
+}

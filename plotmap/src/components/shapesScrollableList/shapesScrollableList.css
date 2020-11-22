@@ -1,0 +1,68 @@
+.md-app-content {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+
+.md-app-content .md-card.plotmap-card {
+  margin-left: 5px;
+  margin-bottom: 10px;
+  background-color: #ffcc80;
+}
+
+.md-card-content.plotmap-card-content {
+  padding: 0px;
+  padding-left: 16px;
+}
+
+.md-card-actions.plotmap-card-actions {
+  padding: 0px;
+}
+
+.plotmap-icon {
+  margin-right: 0px;
+}
+
+.plotmap-title {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.md-drawer.md-persistent-mini:not(.md-active) .md-list-item-content {
+  padding: 0px 11px !important;
+}
+
+button.plotmap-card-button {
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+  border-color: inherit !important;
+}
+
+span.md-list-item-text {
+  white-space: pre-wrap;
+}
+
+.vs-collapse.plotmap-collapse {
+  padding: 0px;
+}
+
+.vs-collapse-item--header {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.icon-header.vs-collapse-item--icon-header {
+  width: 210px;
+}
+
+.plotmap-collapse-content {
+  background-color: #ffe0b2;
+}
+
+.vs-collapse-item--content > .con-content--item {
+  padding: 0px;
+}

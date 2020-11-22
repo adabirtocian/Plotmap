@@ -1,0 +1,27 @@
+{
+	"message_id": "00000000-0000-4444-8888-FEEDDEADBEEF",
+	"uss_name": "ADA_TEST",
+	"type": "DYNAMIC_RESTRICTION",
+	"cause": "SECURITY",
+	"geography": {
+		"type": "Polygon",
+		"coordinates": [[[14.452208219929508, 50.062870650854336], [14.441565214558416, 50.05173941774069], [14.455040632649236, 50.04181832119008], [14.472292601033026, 50.0475507604433], [14.481047331257637, 50.057635986651434], [14.466541944905098, 50.06457868083581], [14.457873045368963, 50.07130001463341], [14.452208219929508, 50.062870650854336]]]
+	},
+	"effective_time_begin": "2019-03-30T01:16:41.123Z",
+	"effective_time_end": "2019-12-30T01:16:41.123Z",
+	"permitted_uas": ["NOT_SET"],
+	"permitted_gufis": ["00000000-0000-4444-8888-FEEDDEADBEEA"],
+	"min_altitude": {
+		"altitude_value": 0,
+		"vertical_reference": "W84",
+		"source": "ONBOARD_SENSOR",
+		"units_of_measure": "FT"
+	},
+	"max_altitude": {
+		"altitude_value": 5000,
+		"vertical_reference": "W84",
+		"source": "ONBOARD_SENSOR",
+		"units_of_measure": "FT"
+	},
+	"reason": "ADA TEST"
+}

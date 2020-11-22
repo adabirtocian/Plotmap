@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aixm-message:AIXMBasicMessage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aixm-message="http://www.aixm.aero/schema/5.1/message" xmlns:gml="http://www.opengis.net/gml/3.2" gml:id="gmlID6708" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://localhost:8071/cadas-aimdb/schemas/app-schema/aixm-message/5.1/AIXM_BasicMessage.xsd http://www.opengis.net/gml/3.2 http://localhost:8071/cadas-aimdb/schemas/3rd-party/ogc/ISO_19136_Schemas/gml.xsd">
+	<aixm-message:hasMember>
+		<aixm:Airspace xmlns:aixm="http://www.aixm.aero/schema/5.1" gml:id="gmlID7569">
+			<gml:identifier codeSpace="urn:uuid:">99d0319f-245e-4ed6-82a9-679bdfb1537a</gml:identifier>
+			<aixm:timeSlice>
+				<aixm:AirspaceTimeSlice gml:id="gmlID7570">
+					<gml:validTime>
+						<gml:TimePeriod gml:id="gmlID7571">
+							<gml:beginPosition>2011-06-30T00:00:00.000Z</gml:beginPosition>
+							<gml:endPosition/>
+						</gml:TimePeriod>
+					</gml:validTime>
+					<aixm:interpretation>BASELINE</aixm:interpretation>
+
+
+					<aixm:featureLifetime>
+						<gml:TimePeriod gml:id="gmlID7572">
+							<gml:beginPosition>2011-06-30T00:00:00.000Z</gml:beginPosition>
+							<gml:endPosition/>
+						</gml:TimePeriod>
+					</aixm:featureLifetime>
+					<aixm:type>D_OTHER</aixm:type>
+					<aixm:designator>ZONE 1</aixm:designator>
+					<aixm:localType xsi:nil="true"/>
+					<aixm:name>ZONE 1</aixm:name>
+					<aixm:designatorICAO xsi:nil="true"/>
+					<aixm:controlType>MIL</aixm:controlType>
+					<aixm:upperLowerSeparation xsi:nil="true"/>
+					<aixm:class xsi:nil="true"/>
+					<aixm:protectedRoute xsi:nil="true"/>
+					<aixm:geometryComponent>
+						<aixm:AirspaceGeometryComponent gml:id="gmlID7573">
+							<aixm:theAirspaceVolume>
+								<aixm:AirspaceVolume gml:id="gmlID7574">
+									<aixm:upperLimit uom="FT">1200</aixm:upperLimit>
+									<aixm:upperLimitReference>MSL</aixm:upperLimitReference>
+									<aixm:lowerLimit uom="FT">0</aixm:lowerLimit>
+									<aixm:lowerLimitReference>SFC</aixm:lowerLimitReference>
+									<aixm:horizontalProjection>
+										<aixm:Surface srsName="urn:ogc:def:crs:OGC:1.3:CRS84" srsDimension="2" gml:id="gmlID7575">
+											<gml:patches>
+												<gml:PolygonPatch>
+													<gml:exterior>
+														<gml:Ring>
+															<gml:curveMember>
+																<gml:Curve gml:id="gmlID7576">
+																	<gml:segments>
+																		<gml:CircleByCenterPoint numArc="1">
+																			<gml:pos>23.95 59.331944444444446</gml:pos>
+																			<gml:radius uom="NM">2.5</gml:radius>
+																		</gml:CircleByCenterPoint>
+																	</gml:segments>
+																</gml:Curve>
+															</gml:curveMember>
+														</gml:Ring>
+													</gml:exterior>
+												</gml:PolygonPatch>
+											</gml:patches>
+										</aixm:Surface>
+									</aixm:horizontalProjection>
+									<aixm:contributorAirspace xsi:nil="true"/>
+								</aixm:AirspaceVolume>
+							</aixm:theAirspaceVolume>
+						</aixm:AirspaceGeometryComponent>
+					</aixm:geometryComponent>
+					<aixm:activation>
+						<aixm:AirspaceActivation gml:id="gmlID7577">
+							<aixm:annotation>
+								<aixm:Note gml:id="gmlID7578">
+									<aixm:propertyName xsi:nil="true"/>
+									<aixm:purpose>DISCLAIMER</aixm:purpose>
+									<aixm:translatedNote>
+										<aixm:LinguisticNote gml:id="gmlID7579">
+											<aixm:note lang="eng">No specific working hours.</aixm:note>
+										</aixm:LinguisticNote>
+									</aixm:translatedNote>
+								</aixm:Note>
+							</aixm:annotation>
+							<aixm:annotation>
+								<aixm:Note gml:id="gmlID7580">
+									<aixm:propertyName xsi:nil="true"/>
+									<aixm:purpose>REMARK</aixm:purpose>
+									<aixm:translatedNote>
+										<aixm:LinguisticNote gml:id="gmlID7581">
+											<aixm:note lang="eng">Obtain info from:
+Ämari TWR FREQ 120.900 MHz/257.800 MHz;
+Tallinn APP FREQ 127.900 MHz.</aixm:note>
+										</aixm:LinguisticNote>
+									</aixm:translatedNote>
+								</aixm:Note>
+							</aixm:annotation>
+							<aixm:activity>TRAINING</aixm:activity>
+							<aixm:status>AVBL_FOR_ACTIVATION</aixm:status>
+						</aixm:AirspaceActivation>
+					</aixm:activation>
+					<aixm:annotation>
+						<aixm:Note gml:id="gmlID7582">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="gmlID7583">
+									<aixm:note lang="eng">Training flights.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+					<aixm:annotation>
+						<aixm:Note gml:id="gmlID7584">
+							<aixm:purpose>REMARK</aixm:purpose>
+							<aixm:translatedNote>
+								<aixm:LinguisticNote gml:id="gmlID7585">
+									<aixm:note lang="eng">Avoid if possible.</aixm:note>
+								</aixm:LinguisticNote>
+							</aixm:translatedNote>
+						</aixm:Note>
+					</aixm:annotation>
+				</aixm:AirspaceTimeSlice>
+			</aixm:timeSlice>
+		</aixm:Airspace>
+	</aixm-message:hasMember>
+</aixm-message:AIXMBasicMessage>

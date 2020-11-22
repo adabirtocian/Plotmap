@@ -1,0 +1,47 @@
+.md-menu {
+  background-color:	inherit;
+  height: auto;
+  width: auto;
+  text-align: right;
+}
+
+.md-button.plotmap-button {
+  background-color: inherit;
+  color: white ;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+
+.md-list-item-content.md-ripple{
+  font-size: 14px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.flex-container > div {
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  vertical-align: middle;
+}
+
+label.plotmap-label {
+  color: white;
+  font-size: 15px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.flex-container > div.plotmap-menu {
+  margin-left: 40px;
+  margin-right: 0px;
+}

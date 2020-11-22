@@ -1,0 +1,2394 @@
+<AIXMBasicMessage
+        xmlns:gco="http://www.isotc211.org/2005/gco"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:gml="http://www.opengis.net/gml/3.2"
+        xmlns="http://www.aixm.aero/schema/5.1/message"
+        xmlns:aixm="http://www.aixm.aero/schema/5.1"
+        xmlns:event="http://www.aixm.aero/schema/5.1/event"
+        xmlns:gmd="http://www.isotc211.org/2005/gmd"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        gml:id="uniqueId"
+        xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd">
+				<hasMember>
+					<aixm:AirportHeliport gml:id="uuid.392fdf98-4791-4dba-b1cc-0a5cf8cca769">
+						<gml:identifier codeSpace="urn:uuid:">392fdf98-4791-4dba-b1cc-0a5cf8cca769</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:AirportHeliportTimeSlice gml:id="uuid.89A32904-4D9A-4F67-BB35-B52F0CCE2D46">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_8AAAE076-82C1-4C42-A995-1997A770218F">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>PERMDELTA</aixm:interpretation>
+								<aixm:sequenceNumber>2</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:designator xsi:nil="true" />
+								<aixm:name>GRAZ AIRPORT</aixm:name>
+								<aixm:locationIndicatorICAO>LOWG</aixm:locationIndicatorICAO>
+								<aixm:designatorIATA xsi:nil="true" />
+								<aixm:type>AH</aixm:type>
+								<aixm:certifiedICAO xsi:nil="true" />
+								<aixm:privateUse xsi:nil="true" />
+								<aixm:controlType xsi:nil="true" />
+								<aixm:fieldElevation xsi:nil="true" />
+								<aixm:fieldElevationAccuracy xsi:nil="true" />
+								<aixm:verticalDatum xsi:nil="true" />
+								<aixm:magneticVariation xsi:nil="true" />
+								<aixm:magneticVariationAccuracy xsi:nil="true" />
+								<aixm:dateMagneticVariation xsi:nil="true" />
+								<aixm:magneticVariationChange xsi:nil="true" />
+								<aixm:referenceTemperature xsi:nil="true" />
+								<aixm:altimeterCheckLocation xsi:nil="true" />
+								<aixm:secondaryPowerSupply xsi:nil="true" />
+								<aixm:windDirectionIndicator xsi:nil="true" />
+								<aixm:landingDirectionIndicator xsi:nil="true" />
+								<aixm:transitionAltitude xsi:nil="true" />
+								<aixm:transitionLevel xsi:nil="true" />
+								<aixm:lowestTemperature xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:certificationDate xsi:nil="true" />
+								<aixm:certificationExpirationDate xsi:nil="true" />
+								<aixm:responsibleOrganisation xsi:nil="true" />
+								<aixm:ARP>
+									<aixm:ElevatedPoint gml:id="uuid.78B08DFA-1340-4CCD-AA2E-D85D9CC90428" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:pos>46.993056 15.439167</gml:pos>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation uom="M">361</aixm:elevation>
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedPoint>
+								</aixm:ARP>
+								<aixm:aviationBoundary xsi:nil="true" />
+							</aixm:AirportHeliportTimeSlice>
+						</aixm:timeSlice>
+					</aixm:AirportHeliport>
+				</hasMember>
+				<hasMember>
+					<aixm:Runway gml:id="uuid.623183d4-725d-4b66-9d97-af3a0a9d94c3">
+						<gml:identifier codeSpace="urn:uuid:">623183d4-725d-4b66-9d97-af3a0a9d94c3</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayTimeSlice gml:id="uuid.16D2A62C-9FE3-46CB-91CB-9E6E0E54FD04">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_8DB9FEB9-5736-48EA-89AD-44F325B42DE7">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>PERMDELTA</aixm:interpretation>
+								<aixm:sequenceNumber>2</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:designator>17R/35L</aixm:designator>
+								<aixm:type>RWY</aixm:type>
+								<aixm:nominalLength uom="M">760</aixm:nominalLength>
+								<aixm:lengthAccuracy xsi:nil="true" />
+								<aixm:nominalWidth uom="M">25</aixm:nominalWidth>
+								<aixm:widthAccuracy xsi:nil="true" />
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:lengthStrip xsi:nil="true" />
+								<aixm:widthStrip xsi:nil="true" />
+								<aixm:lengthOffset xsi:nil="true" />
+								<aixm:widthOffset xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.CB289B50-A3BA-4421-B629-6A00C12E14AD">
+										<aixm:composition>GRASS</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:RunwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Runway>
+				</hasMember>
+				<hasMember>
+					<aixm:Runway gml:id="uuid.64c7f9e4-6d0f-463c-b512-535f94836fb8">
+						<gml:identifier codeSpace="urn:uuid:">64c7f9e4-6d0f-463c-b512-535f94836fb8</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayTimeSlice gml:id="uuid.010D64E0-BA3A-4EC5-8E5F-B456C807272B">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_E5320C7B-2FD5-4D36-BB35-B7C96D04FF3B">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>PERMDELTA</aixm:interpretation>
+								<aixm:sequenceNumber>2</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:designator>17L/35R</aixm:designator>
+								<aixm:type>RWY</aixm:type>
+								<aixm:nominalLength uom="M">640</aixm:nominalLength>
+								<aixm:lengthAccuracy xsi:nil="true" />
+								<aixm:nominalWidth uom="M">30</aixm:nominalWidth>
+								<aixm:widthAccuracy xsi:nil="true" />
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:lengthStrip xsi:nil="true" />
+								<aixm:widthStrip xsi:nil="true" />
+								<aixm:lengthOffset xsi:nil="true" />
+								<aixm:widthOffset xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.80ACF53B-EC9C-4C17-A2CB-EA653303857D">
+										<aixm:composition>GRASS</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:RunwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Runway>
+				</hasMember>
+				<hasMember>
+					<aixm:Runway gml:id="uuid.e0374965-eabd-4782-92f2-500e300ea17a">
+						<gml:identifier codeSpace="urn:uuid:">e0374965-eabd-4782-92f2-500e300ea17a</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayTimeSlice gml:id="uuid.4C0AF92A-2ACF-4A43-A168-CB8DB74377D4">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_C07BD4A5-507A-4EF1-B4FA-3E5FD100B828">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>PERMDELTA</aixm:interpretation>
+								<aixm:sequenceNumber>2</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:designator>17C/35C</aixm:designator>
+								<aixm:type>RWY</aixm:type>
+								<aixm:nominalLength uom="M">3000</aixm:nominalLength>
+								<aixm:lengthAccuracy xsi:nil="true" />
+								<aixm:nominalWidth uom="M">45</aixm:nominalWidth>
+								<aixm:widthAccuracy xsi:nil="true" />
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:lengthStrip xsi:nil="true" />
+								<aixm:widthStrip xsi:nil="true" />
+								<aixm:lengthOffset xsi:nil="true" />
+								<aixm:widthOffset xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.C2AE1E05-14A7-4E4F-9243-0C73F0DA9A60">
+										<aixm:composition>BITUM</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN>61</aixm:classPCN>
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:RunwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Runway>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayDirection gml:id="uuid.0484e895-bc48-46ed-be16-9d3a3913f018">
+						<gml:identifier codeSpace="urn:uuid:">0484e895-bc48-46ed-be16-9d3a3913f018</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayDirectionTimeSlice gml:id="uuid.64CD02D7-7EDF-4DC4-868F-D192A97FE1C5">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_1727EAEA-2A87-446A-B7E4-ADB6834AF138">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>PERMDELTA</aixm:interpretation>
+								<aixm:sequenceNumber>2</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:designator>35L</aixm:designator>
+								<aixm:trueBearing>349</aixm:trueBearing>
+								<aixm:trueBearingAccuracy xsi:nil="true" />
+								<aixm:magneticBearing xsi:nil="true" />
+								<aixm:patternVFR xsi:nil="true" />
+								<aixm:slopeTDZ xsi:nil="true" />
+								<aixm:elevationTDZ xsi:nil="true" />
+								<aixm:elevationTDZAccuracy xsi:nil="true" />
+								<aixm:approachMarkingType xsi:nil="true" />
+								<aixm:approachMarkingCondition xsi:nil="true" />
+								<aixm:classLightingJAR xsi:nil="true" />
+								<aixm:precisionApproachGuidance xsi:nil="true" />
+								<aixm:usedRunway xlink:href="urn:uuid:623183d4-725d-4b66-9d97-af3a0a9d94c3" />
+								<aixm:startingElement xsi:nil="true" />
+							</aixm:RunwayDirectionTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayDirection>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayDirection gml:id="uuid.4ec5ba27-c123-408c-bd98-4d877598a043">
+						<gml:identifier codeSpace="urn:uuid:">4ec5ba27-c123-408c-bd98-4d877598a043</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayDirectionTimeSlice gml:id="uuid.166C94C5-576F-46D8-BF32-6F04453697CD">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_0A84FED0-272D-4146-8DAA-E57A574E9113">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>PERMDELTA</aixm:interpretation>
+								<aixm:sequenceNumber>2</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:designator>17R</aixm:designator>
+								<aixm:trueBearing>169</aixm:trueBearing>
+								<aixm:trueBearingAccuracy xsi:nil="true" />
+								<aixm:magneticBearing xsi:nil="true" />
+								<aixm:patternVFR xsi:nil="true" />
+								<aixm:slopeTDZ xsi:nil="true" />
+								<aixm:elevationTDZ xsi:nil="true" />
+								<aixm:elevationTDZAccuracy xsi:nil="true" />
+								<aixm:approachMarkingType xsi:nil="true" />
+								<aixm:approachMarkingCondition xsi:nil="true" />
+								<aixm:classLightingJAR xsi:nil="true" />
+								<aixm:precisionApproachGuidance xsi:nil="true" />
+								<aixm:usedRunway xlink:href="urn:uuid:623183d4-725d-4b66-9d97-af3a0a9d94c3" />
+								<aixm:startingElement xsi:nil="true" />
+							</aixm:RunwayDirectionTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayDirection>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayDirection gml:id="uuid.9e976aa8-fb6c-4685-b843-43e7a6b993ef">
+						<gml:identifier codeSpace="urn:uuid:">9e976aa8-fb6c-4685-b843-43e7a6b993ef</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayDirectionTimeSlice gml:id="uuid.9E24D2D7-91C7-45D5-8635-A1407D2D03AA">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_217F7D56-8F4B-4231-886F-16BEDD5F9C9A">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>PERMDELTA</aixm:interpretation>
+								<aixm:sequenceNumber>2</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:designator>17L</aixm:designator>
+								<aixm:trueBearing>169</aixm:trueBearing>
+								<aixm:trueBearingAccuracy xsi:nil="true" />
+								<aixm:magneticBearing xsi:nil="true" />
+								<aixm:patternVFR xsi:nil="true" />
+								<aixm:slopeTDZ xsi:nil="true" />
+								<aixm:elevationTDZ xsi:nil="true" />
+								<aixm:elevationTDZAccuracy xsi:nil="true" />
+								<aixm:approachMarkingType xsi:nil="true" />
+								<aixm:approachMarkingCondition xsi:nil="true" />
+								<aixm:classLightingJAR xsi:nil="true" />
+								<aixm:precisionApproachGuidance xsi:nil="true" />
+								<aixm:usedRunway xlink:href="urn:uuid:64c7f9e4-6d0f-463c-b512-535f94836fb8" />
+								<aixm:startingElement xsi:nil="true" />
+							</aixm:RunwayDirectionTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayDirection>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayDirection gml:id="uuid.fad34ca8-1345-4cf7-8202-776dd8667fd8">
+						<gml:identifier codeSpace="urn:uuid:">fad34ca8-1345-4cf7-8202-776dd8667fd8</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayDirectionTimeSlice gml:id="uuid.C9B03218-D870-4BB5-A43F-09F82952C239">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_5A0DF672-1D85-42EB-9289-A21207E6074E">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>PERMDELTA</aixm:interpretation>
+								<aixm:sequenceNumber>2</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:designator>35R</aixm:designator>
+								<aixm:trueBearing>349</aixm:trueBearing>
+								<aixm:trueBearingAccuracy xsi:nil="true" />
+								<aixm:magneticBearing xsi:nil="true" />
+								<aixm:patternVFR xsi:nil="true" />
+								<aixm:slopeTDZ xsi:nil="true" />
+								<aixm:elevationTDZ xsi:nil="true" />
+								<aixm:elevationTDZAccuracy xsi:nil="true" />
+								<aixm:approachMarkingType xsi:nil="true" />
+								<aixm:approachMarkingCondition xsi:nil="true" />
+								<aixm:classLightingJAR xsi:nil="true" />
+								<aixm:precisionApproachGuidance xsi:nil="true" />
+								<aixm:usedRunway xlink:href="urn:uuid:64c7f9e4-6d0f-463c-b512-535f94836fb8" />
+								<aixm:startingElement xsi:nil="true" />
+							</aixm:RunwayDirectionTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayDirection>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayDirection gml:id="uuid.d6032187-a229-400b-915e-d34491f32a91">
+						<gml:identifier codeSpace="urn:uuid:">d6032187-a229-400b-915e-d34491f32a91</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayDirectionTimeSlice gml:id="uuid.821AE2C6-479D-4AAA-9B07-0B7F80F9770B">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_689E1F30-5ED9-47E2-9F3A-0CE6D298361D">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>PERMDELTA</aixm:interpretation>
+								<aixm:sequenceNumber>2</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:designator>17C</aixm:designator>
+								<aixm:trueBearing>169</aixm:trueBearing>
+								<aixm:trueBearingAccuracy xsi:nil="true" />
+								<aixm:magneticBearing xsi:nil="true" />
+								<aixm:patternVFR xsi:nil="true" />
+								<aixm:slopeTDZ xsi:nil="true" />
+								<aixm:elevationTDZ xsi:nil="true" />
+								<aixm:elevationTDZAccuracy xsi:nil="true" />
+								<aixm:approachMarkingType xsi:nil="true" />
+								<aixm:approachMarkingCondition xsi:nil="true" />
+								<aixm:classLightingJAR xsi:nil="true" />
+								<aixm:precisionApproachGuidance xsi:nil="true" />
+								<aixm:usedRunway xlink:href="urn:uuid:e0374965-eabd-4782-92f2-500e300ea17a" />
+								<aixm:startingElement xsi:nil="true" />
+							</aixm:RunwayDirectionTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayDirection>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayDirection gml:id="uuid.7fb74955-257d-4d73-8361-f2c83c77a4be">
+						<gml:identifier codeSpace="urn:uuid:">7fb74955-257d-4d73-8361-f2c83c77a4be</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayDirectionTimeSlice gml:id="uuid.3C976F69-4760-47CC-B79A-B5F3A19A9DE2">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_4B22CB1C-D837-46B1-936E-15644D8B421E">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>PERMDELTA</aixm:interpretation>
+								<aixm:sequenceNumber>2</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:designator>35C</aixm:designator>
+								<aixm:trueBearing>349</aixm:trueBearing>
+								<aixm:trueBearingAccuracy xsi:nil="true" />
+								<aixm:magneticBearing xsi:nil="true" />
+								<aixm:patternVFR xsi:nil="true" />
+								<aixm:slopeTDZ xsi:nil="true" />
+								<aixm:elevationTDZ xsi:nil="true" />
+								<aixm:elevationTDZAccuracy xsi:nil="true" />
+								<aixm:approachMarkingType xsi:nil="true" />
+								<aixm:approachMarkingCondition xsi:nil="true" />
+								<aixm:classLightingJAR xsi:nil="true" />
+								<aixm:precisionApproachGuidance xsi:nil="true" />
+								<aixm:usedRunway xlink:href="urn:uuid:e0374965-eabd-4782-92f2-500e300ea17a" />
+								<aixm:startingElement xsi:nil="true" />
+							</aixm:RunwayDirectionTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayDirection>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayElement gml:id="uuid.4C81C574-5587-451B-A254-C2492C54F5A0">
+						<gml:identifier codeSpace="urn:uuid:">4C81C574-5587-451B-A254-C2492C54F5A0</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayElementTimeSlice gml:id="uuid.8A6C4AB2-7547-41F7-B0E4-CAFF9DA558CB">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_C9CF9EF9-D81E-44E2-861D-58B5392362C2">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_4FC8CF1F-8DEC-420D-8510-07A852234234">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedRunway xlink:href="urn:uuid:623183d4-725d-4b66-9d97-af3a0a9d94c3" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.03304A42-0AE7-4A4C-AC5B-CA9A18532692" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_0998081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9953904401429 15.4349293859778 46.9954325167855 15.4352740498362 46.9886989177243 15.4371247740565 46.9886486023523 15.43677474578 46.9953904401429 15.4349293859778</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:RunwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayElement gml:id="uuid.3B547990-FCE6-40B7-ACB7-7C0847995E83">
+						<gml:identifier codeSpace="urn:uuid:">3B547990-FCE6-40B7-ACB7-7C0847995E83</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayElementTimeSlice gml:id="uuid.21F6A01D-5D10-4448-943F-6281FF631801">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_28330B20-DBAB-4A89-BCF3-2C26D613F25C">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_4E39B241-13F3-438C-A34C-4838E38AC565">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedRunway xlink:href="urn:uuid:64c7f9e4-6d0f-463c-b512-535f94836fb8" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.27AAEEC7-4130-47A5-BAAF-641B428AEF9D" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_09981081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9849242371162 15.4439273525038 46.9849734033404 15.4443104673568 46.9906246300859 15.4427571452549 46.9905767627714 15.4423721337938 46.9905728816359 15.4423778236184 46.9849242371162 15.4439273525038</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:RunwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayElement gml:id="uuid.41E98F82-C722-4D31-B34D-6F30435EDDE3">
+						<gml:identifier codeSpace="urn:uuid:">41E98F82-C722-4D31-B34D-6F30435EDDE3</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayElementTimeSlice gml:id="uuid.A64B47CB-17E9-4485-A7FF-4D65F964FE42">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_8388DF1C-4B2D-4ACC-85B4-D57F6A88043C">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_66F257E9-307E-4E2F-ACE8-9D55FC3E164F">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedRunway xlink:href="urn:uuid:e0374965-eabd-4782-92f2-500e300ea17a" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.20763597-AB3C-4459-B830-42C7D636041F" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_09928081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9777519532442 15.4429942212775 46.9778270064781 15.4435669969487 47.0020342155322 15.4369167261837 47.001961047782 15.4363454156635 46.9777519532442 15.4429942212775</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:RunwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayCentrelinePoint gml:id="uuid.D72E7DDC-B18D-4F4D-8664-5CBFAA5277BD">
+						<gml:identifier codeSpace="urn:uuid:">D72E7DDC-B18D-4F4D-8664-5CBFAA5277BD</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayCentrelinePointTimeSlice gml:id="uuid.8AEC04EE-3E8F-4DDD-95D3-25F6E3EE83F6">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_44C87C6C-F86D-43BD-B536-C1A5ECDA752C">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_A99E149E-9989-4519-BBAD-4424D1946BA1">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:role>DISTHR</aixm:role>
+								<aixm:designator>17C</aixm:designator>
+								<aixm:location>
+									<aixm:ElevatedPoint gml:id="uuid.E6F4DE66-224E-4C52-9D61-144D4E4B996D">
+										<gml:pos srsName="urn:ogc:def:crs:EPSG::4326">47.001944 15.436389</gml:pos>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation uom="M">340</aixm:elevation>
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedPoint>
+								</aixm:location>
+								<aixm:onRunway xlink:href="urn:uuid:d6032187-a229-400b-915e-d34491f32a91" />
+							</aixm:RunwayCentrelinePointTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayCentrelinePoint>
+				</hasMember>
+				<hasMember>
+					<aixm:RunwayCentrelinePoint gml:id="uuid.DBD8CBAD-4354-49A5-8775-73B0EFDADC02">
+						<gml:identifier codeSpace="urn:uuid:">DBD8CBAD-4354-49A5-8775-73B0EFDADC02</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:RunwayCentrelinePointTimeSlice gml:id="uuid.72D48724-BBC0-4DD9-A32F-27FF9F1E3130">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_569207EB-B198-4016-8E69-DBEE0CCD41E2">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_2D97FFE1-53DA-4F1D-BF1F-5D97A61CE87C">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:role>THR</aixm:role>
+								<aixm:designator>35C</aixm:designator>
+								<aixm:location>
+									<aixm:ElevatedPoint gml:id="uuid.F60B8586-E257-4395-88F7-33C0B1AD4E65">
+										<gml:pos srsName="urn:ogc:def:crs:EPSG::4326">46.977778 15.443056</gml:pos>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation uom="M">331</aixm:elevation>
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedPoint>
+								</aixm:location>
+								<aixm:onRunway xlink:href="urn:uuid:7fb74955-257d-4d73-8361-f2c83c77a4be" />
+							</aixm:RunwayCentrelinePointTimeSlice>
+						</aixm:timeSlice>
+					</aixm:RunwayCentrelinePoint>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.172F9E83-B02F-439E-B6E1-857F2FB6ABE8">
+						<gml:identifier codeSpace="urn:uuid:">172F9E83-B02F-439E-B6E1-857F2FB6ABE8</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.1CDB5277-C5CA-49C8-92D9-50E350D596D8">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_87738A70-F8AC-447F-835C-612B1604CD74">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_A40BEA04-DA28-4EBF-B286-9777CA7ED7A8">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>A</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">24</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.B3533E3E-2304-4056-B3C9-8FACA1B48FC3">
+										<aixm:composition>BITUM</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN>24</aixm:classPCN>
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.B320B241-9214-429C-888D-F11914065C7E">
+						<gml:identifier codeSpace="urn:uuid:">B320B241-9214-429C-888D-F11914065C7E</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.0FED1487-467E-4616-8644-2BE77BDB02EB">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_64FAB028-9D0E-4796-BE94-B3A171F00DFA">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_DB69610B-5840-455E-8FEE-6AE03F97F108">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>B</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">23</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.E55F2AB6-11DF-4203-8F8F-B0E63C6A7CF1">
+										<aixm:composition>BITUM</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN>61</aixm:classPCN>
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.B92F3B50-DADE-463A-BE52-736AD090C921">
+						<gml:identifier codeSpace="urn:uuid:">B92F3B50-DADE-463A-BE52-736AD090C921</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.D530CBE3-6453-47A9-8081-BC4BEDDC2FDC">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_5C262BFF-B7C3-4EBF-8E78-6DE89C253CE3">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_FC6C9270-4716-46B7-95B7-B7E45195FE6A">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>D</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">23</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.D2DEF745-D257-472F-BA31-9F67F7BFC6E8">
+										<aixm:composition>BITUM</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN>50</aixm:classPCN>
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.039BA860-B690-43CB-83E9-805D019A0632">
+						<gml:identifier codeSpace="urn:uuid:">039BA860-B690-43CB-83E9-805D019A0632</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.54020954-A78A-4623-9E2A-7A1F4BF52D81">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_D202AD97-EDB5-420A-9EC8-C4C0DD7C2DBF">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_A23867F5-AE6D-4E30-8E7B-D88A1D4A3ED8">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>G1</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">15</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.72B5A875-38E8-4246-8CFD-77DA1F78A54F">
+										<aixm:composition>GRASS</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.CFCFFA21-F0D7-454E-8C8A-1CB98F1D578B">
+						<gml:identifier codeSpace="urn:uuid:">CFCFFA21-F0D7-454E-8C8A-1CB98F1D578B</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.48D05149-6B15-49AF-A7A5-735456157DB2">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_B193ACE2-CF23-42C4-B40F-DF507B301DD9">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_A2E45FEA-6975-4FD7-AFC2-D1073D240D56">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>G2</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">15</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.E2EDB3F4-CBE9-4913-BDF1-D1982BE7BB78">
+										<aixm:composition>GRASS</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.471B2761-2E0C-4A44-A62A-0C6AE23098D9">
+						<gml:identifier codeSpace="urn:uuid:">471B2761-2E0C-4A44-A62A-0C6AE23098D9</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.AB26A454-E905-4061-AC10-69593CA16ADD">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_62D64BA5-FD83-40F1-94CB-51C9D9C7025A">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_64A50350-4926-4D1A-B01B-32539741F597">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>X</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">10</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.ABDC9A0A-50AA-4E35-9A63-A21241750211">
+										<aixm:composition>BITUM</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.9138BB84-358E-4BD9-8D46-0CF32A4882CC">
+						<gml:identifier codeSpace="urn:uuid:">9138BB84-358E-4BD9-8D46-0CF32A4882CC</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.E520BE48-B5BE-40B7-83E7-0D791739CC89">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_818C5984-5702-4940-90C9-23492D4BC468">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_8BA21A04-5359-4827-9710-A60867E4A865">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>Y</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">18</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.C14FF8F8-506A-4A2E-82E7-E6152FC22C23">
+										<aixm:composition>BITUM</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.073FDEDC-7ABF-4863-8E6F-4963C2CDC3F7">
+						<gml:identifier codeSpace="urn:uuid:">073FDEDC-7ABF-4863-8E6F-4963C2CDC3F7</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.F15834AB-CFE9-4578-BCBB-24A3D402D5AE">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_E73EF7DC-0D30-4C41-96B3-4E3E7D8B7881">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_10B95D92-C76E-4931-BBBC-FC3AFB457954">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>S1</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">20</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.71EBC4F5-50D2-4876-A2BD-6FDBB17AEB36">
+										<aixm:composition>GRASS</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.4197BA47-6D25-41BB-BFA4-94D7D663D4C7">
+						<gml:identifier codeSpace="urn:uuid:">4197BA47-6D25-41BB-BFA4-94D7D663D4C7</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.1C5DA9FC-2C6C-48D4-8710-265E4A9970E8">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_2AE4364B-5C27-4C37-8378-2C3C72FC8D09">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_3862B790-D516-4D2B-9C5A-397854BF749B">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>S</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">20</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.D8E578C0-0431-46BA-94C9-FBD57CA41642">
+										<aixm:composition>GRASS</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.8A465EE6-5437-444A-97EB-1E26783E85ED">
+						<gml:identifier codeSpace="urn:uuid:">8A465EE6-5437-444A-97EB-1E26783E85ED</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.53CF916F-653D-4F32-AEA5-67A416B78C79">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_617D8EB5-BA06-4C76-A052-E44A7DC518E0">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_C23678BE-6E36-44C9-BBF0-84788C606227">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>S4</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">20</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.4DBF5158-ADD5-44E8-B25F-C7D120DE6BA9">
+										<aixm:composition>GRASS</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.D77518D7-68BD-403E-A214-22449C2CE517">
+						<gml:identifier codeSpace="urn:uuid:">D77518D7-68BD-403E-A214-22449C2CE517</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.F39DDDAE-2BBE-4AAC-B19B-07C275366688">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_BEAA0D3F-EDF1-4759-B8EC-C562D84BEB37">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_FB36D620-D043-4283-88ED-51EFBAFCAB8E">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>S2</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">20</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.3C67CE05-4AAE-4715-B95C-5F221922E5BA">
+										<aixm:composition>GRASS</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:Taxiway gml:id="uuid.ACCB4869-8422-4C3A-BA13-FFCD3AB3F05B">
+						<gml:identifier codeSpace="urn:uuid:">ACCB4869-8422-4C3A-BA13-FFCD3AB3F05B</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayTimeSlice gml:id="uuid.F0303C17-67F8-4F95-A9A0-21DEA7EC2C01">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_7A9D4011-72B1-415A-B7DA-A407752A9EA3">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_6CC8EDAF-E727-43FE-9D6F-0A3A5EC44207">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:designator>S3</aixm:designator>
+								<aixm:type>AIR</aixm:type>
+								<aixm:width uom="M">20</aixm:width>
+								<aixm:widthShoulder xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.5B55E963-964A-41FF-A0D6-126C26CFDCDC">
+										<aixm:composition>GRASS</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:TaxiwayTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Taxiway>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.08770646-78C2-4D37-9FDF-571A64866ACA">
+						<gml:identifier codeSpace="urn:uuid:">08770646-78C2-4D37-9FDF-571A64866ACA</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.798E55F6-49FD-4E5A-B170-8F2F50214882">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_4F07EEA8-AD0D-44CC-AD94-929B602DA5B7">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_5C37D30D-1C54-4AF9-B9F7-FD353797D4E9">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:172F9E83-B02F-439E-B6E1-857F2FB6ABE8" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.A0FA9AB0-FC96-406E-903F-FC11B8B7DB65" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_09398081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.989671228727 15.4438768360799 46.989710040724 15.4441727069564 46.9900593474284 15.444066496898 46.990594946608 15.4439128716352 46.9920710508661 15.4435013076595 46.9929649732382 15.4432604384202 46.9943685693676 15.4428905998245 46.9943465778231 15.4427274915207 46.9943116500574 15.4426459373688 46.9942767222688 15.4425586933924 46.9940865594641 15.4422571326913 46.9941214873769 15.4423633427496 46.9941240746288 15.4424904154979 46.9940800913295 15.4426023153806 46.9939947118806 15.442678179708 46.9897139219222 15.4438654564305 46.989671228727 15.4438768360799</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.46D19605-FC46-40C5-A184-90366677598C">
+						<gml:identifier codeSpace="urn:uuid:">46D19605-FC46-40C5-A184-90366677598C</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.2065AC2F-B26B-492B-8388-D03D2714C875">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_6ACEBD11-508B-47EB-B7DB-93966DB2C19B">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_54A0D160-4C72-409D-A3FF-DCBB5EA7161C">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:B320B241-9214-429C-888D-F11914065C7E" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.066500BF-F7A1-4B63-A7A0-EBCEFD96E2CC" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_09948081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9929688542001 15.4394046339842 46.9929132270543 15.4394596356215 46.9928666554458 15.4395506728143 46.9928394886555 15.4397042980771 46.9928485442538 15.4398256810008 46.9928938222223 15.43998309948 46.9945082801447 15.4424505867261 46.9945729609364 15.4424961053225 46.9948950701129 15.4424259308197 46.9949248230714 15.4427445609945 46.9943672757476 15.4428887032163 46.9943439905821 15.4427274915208 46.9943103564361 15.4426459373689 46.9942767222689 15.4425567967843 46.9940852658373 15.4422552360832 46.9927321150157 15.4401651738655 46.9926247411602 15.4400362045091 46.9924798507963 15.4398939588954 46.9921654891025 15.4396284337497 46.9929688542001 15.4394046339842</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.0874098B-9473-46F5-A89B-0843646BFFD6">
+						<gml:identifier codeSpace="urn:uuid:">0874098B-9473-46F5-A89B-0843646BFFD6</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.D8443A8B-EEA1-4412-B6EC-276B99EF48FB">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_A63B0939-F190-46EC-8C60-6DFF5BAEC816">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_1EEF5BE1-E507-4DE3-B9E6-3FC590B3AA76">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:B92F3B50-DADE-463A-BE52-736AD090C921" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.02118264-56E6-41ED-839C-1947DB340EC9" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099111221110987568081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>47.0019568543694 15.4363579068634 47.0042604147483 15.4357187499058 47.0044337274575 15.4372113805458 47.0044130334322 15.4374541463932 47.00434965793 15.4377026020651 47.0041672912693 15.4381103728245 47.0032321673351 15.4401037080248 47.0030924793671 15.4403085417086 47.0029088150016 15.4404792364451 47.0026772935284 15.440602515977 46.9994915079101 15.4414616794839 46.9949213911751 15.442747579832 46.994892931822 15.4424308462654 47.0025052685439 15.4403369908312 47.0026747066906 15.4402592298957 47.0028661323473 15.4401283639311 47.0030084077288 15.4399652556274 47.003053677089 15.4398950811246 47.0039862173732 15.437930195047 47.0041853986251 15.4373460397266 47.0041866920074 15.4371298263938 47.0041543574399 15.4368946469791 47.0041142625489 15.4367448149327 47.0040366594488 15.4366386048744 47.0037883287706 15.4364679101379 47.0037352996741 15.4364508406643 47.0020331670562 15.4369022334118 47.0019568543694 15.4363579068634</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.02B715BB-4EEA-4461-84FF-917547B69614">
+						<gml:identifier codeSpace="urn:uuid:">02B715BB-4EEA-4461-84FF-917547B69614</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.42439D27-0D5E-49DC-97F0-0320AC04F3A2">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_89C2A907-E0E1-4B6C-9D82-9D018C15D355">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_87FAA538-9103-4AD2-BFCB-0B489130AA43">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:039BA860-B690-43CB-83E9-805D019A0632" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.5F414423-7320-4D2C-B46A-52CA24C70D97" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099814081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>47.0019568543694 15.4363579068634 47.0042604147483 15.4357187499058 47.0044337274575 15.4372113805458 47.0044130334322 15.4374541463932 47.00434965793 15.4377026020651 47.0041672912693 15.4381103728245 47.0032321673351 15.4401037080248 47.0030924793671 15.4403085417086 47.0029088150016 15.4404792364451 47.0026772935284 15.440602515977 46.9994915079101 15.4414616794839 46.9949213911751 15.442747579832 46.994892931822 15.4424308462654 47.0025052685439 15.4403369908312 47.0026747066906 15.4402592298957 47.0028661323473 15.4401283639311 47.0030084077288 15.4399652556274 47.003053677089 15.4398950811246 47.0039862173732 15.437930195047 47.0041853986251 15.4373460397266 47.0041866920074 15.4371298263938 47.0041543574399 15.4368946469791 47.0041142625489 15.4367448149327 47.0040366594488 15.4366386048744 47.0037883287706 15.4364679101379 47.0037352996741 15.4364508406643 47.0020331670562 15.4369022334118 47.0019568543694 15.4363579068634</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.B531CDB6-6329-4BB7-A91E-2B936BA370D6">
+						<gml:identifier codeSpace="urn:uuid:">B531CDB6-6329-4BB7-A91E-2B936BA370D6</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.599CA447-5E81-4BB4-817A-8C49A7417836">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_AE304C5C-5E41-4262-894C-E966D5714E63">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_BB9ED401-0E10-470A-AA0C-D462BB556704">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:CFCFFA21-F0D7-454E-8C8A-1CB98F1D578B" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.6A1976CE-92DB-4C29-BBCE-D5623A8F58C4" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099128081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9849239630413 15.4439275651661 46.9846677804034 15.4440110159261 46.984710477595 15.4444112002527 46.9847855210612 15.4446274135856 46.9849990062078 15.4448606963921 46.9852694195029 15.4450939791986 46.9854725520354 15.4452191553387 46.9856596050094 15.4452769779406 46.9858565046908 15.4452906258562 46.9861100939923 15.4452299343944 46.9862964037328 15.4451768293653 46.9867621752433 15.4450175142777 46.9872408806222 15.4448809584885 46.9874478870258 15.4447747484303 46.9897119672299 15.4441678338116 46.9896705677669 15.4438795493678 46.9860686917395 15.4448240602427 46.9858099269333 15.4448695788391 46.9856184401702 15.4447899212954 46.9854450664282 15.4447064705354 46.9851940616561 15.4445737079626 46.9849741080519 15.4443119760333 46.9849239630413 15.4439275651661</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.6A55B4BB-BB1F-48B0-BF03-DD3B6255C6E0">
+						<gml:identifier codeSpace="urn:uuid:">6A55B4BB-BB1F-48B0-BF03-DD3B6255C6E0</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.7980E49D-73AB-4CAE-8343-50F2FEEAA695">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_C7BDFA77-2532-453D-9738-C32F25D24FA7">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_7AF3F7D5-44DB-4C20-8EE6-C3C3DE19FA27">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:471B2761-2E0C-4A44-A62A-0C6AE23098D9" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.CC22EFE9-FEDD-4ACF-A3A7-249E6007A1B4" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099815081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9923569383192 15.4389833352244 46.9923258902616 15.4389605759262 46.9922637940922 15.4388979878562 46.9922114003932 15.4387936744061 46.9919093270773 15.4364342938263 46.9919022118394 15.4363622227153 46.9919280854271 15.4362901516044 46.9919565463591 15.4362285118385 46.9917210963746 15.4362920482126 46.9917793121266 15.4363204973353 46.9918110073427 15.4363641193235 46.9918252378418 15.4364598980368 46.992127311633 15.438816433704 46.9921156685635 15.4389141090254 46.9920813861774 15.4389994563937 46.9920516316358 15.4390667859842 46.9923569383192 15.4389833352244</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.FECBF068-8FB2-4FB2-B394-E401C70E2BB5">
+						<gml:identifier codeSpace="urn:uuid:">FECBF068-8FB2-4FB2-B394-E401C70E2BB5</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.7D370C89-9039-43B2-92CD-A974B74F4B10">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_91EC7D79-FDAB-4CDE-B302-E7308AC21BD1">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_DF796414-6926-4679-9996-BA3F7B20D7AC">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:9138BB84-358E-4BD9-8D46-0CF32A4882CC" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.E4557907-6231-4AB3-A5A7-186C21958547" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099168081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9846830432738 15.4410912059332 46.9846427879558 15.4410737715746 46.9845842347119 15.4409892819906 46.9845558729613 15.4409101568247 46.9845293409874 15.4406835101629 46.9848490203617 15.4394547358332 46.9850495668007 15.4386448841391 46.9850948513763 15.438364186128 46.9850922636873 15.4380341763041 46.9850741498608 15.4379090001641 46.9849292390276 15.4373020855455 46.9847933847647 15.4373343278846 46.9849137128436 15.4379317594623 46.9849395898144 15.4380872813333 46.9849460590552 15.438229526947 46.9849357082696 15.4383547030871 46.9849279451791 15.4384760860108 46.9847054027722 15.4393731816813 46.9841956219065 15.4411028883442 46.9841632752409 15.4411806492797 46.9841257530842 15.441245133958 46.9846830432738 15.4410912059332</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.87FA38EB-598E-487D-A68B-A615606352E6">
+						<gml:identifier codeSpace="urn:uuid:">87FA38EB-598E-487D-A68B-A615606352E6</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.B6FC84D9-2BC5-4F34-A80A-89EB6AB3BC49">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_CFA75212-D1C2-4506-8894-6F4BFEF49EC7">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_480803F0-691A-4406-ACF1-79B47A2AB075">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:073FDEDC-7ABF-4863-8E6F-4963C2CDC3F7" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.ACC1D9CC-FB2A-4131-BA41-E7E70029C532" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099817081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9941600072696 15.4352666133601 46.9941481157648 15.4351271384913 46.9941371389887 15.4347422414977 46.9941060381109 15.43434125125 46.994821353721 15.4340757125575 46.9949164382883 15.4345589647632 46.9944740229536 15.4347979373943 46.9942644565167 15.4352379504927 46.9941600072696 15.4352666133601</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.EA2275E8-5C77-4068-AB78-AD41A5EE2DD7">
+						<gml:identifier codeSpace="urn:uuid:">EA2275E8-5C77-4068-AB78-AD41A5EE2DD7</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.90179088-5A67-4AC9-BC47-B59B086033A0">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_9A4DD692-4441-49D4-9B38-71E51596F7F1">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_71F0FC92-CCBC-4FC5-B350-D828B05C72A2">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:4197BA47-6D25-41BB-BFA4-94D7D663D4C7" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.DEE386BE-D52D-4CBE-9B73-B26456A4437A" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_01918998081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9941053407101 15.4343454446137 46.9941338004827 15.4346413154903 46.989376927162 15.4359613547857 46.9890353784928 15.4357242787628 46.9941053407101 15.4343454446137</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.BC445D11-0B61-4083-B419-4D7512FBEDCA">
+						<gml:identifier codeSpace="urn:uuid:">BC445D11-0B61-4083-B419-4D7512FBEDCA</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.0851FB8E-C570-411C-9346-1395AB473F24">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_EFE0EFD4-060D-4E50-9311-7597E83AD859">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_A0C0639F-F989-4C78-8022-105B7D9BF41B">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:8A465EE6-5437-444A-97EB-1E26783E85ED" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.C97A95A6-F158-417B-8955-E07D56174B5A" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099820081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9898672526858 15.4364468864805 46.9882849987518 15.434990291396 46.9877998338291 15.4351818488225 46.9879382680027 15.4357527278856 46.9879356804514 15.4358722142011 46.9878774605127 15.4360220462476 46.9880133069376 15.4361472223876 46.9881595031807 15.4362799849604 46.9883703873224 15.4365056813342 46.9886498398727 15.4367768963044 46.9898672526858 15.4364468864805</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.29A51461-7241-4F2F-B80A-FAD5140DF1C8">
+						<gml:identifier codeSpace="urn:uuid:">29A51461-7241-4F2F-B80A-FAD5140DF1C8</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.041D931C-56DA-4A95-83F6-793E04F8CD92">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_FD37C578-80DC-4FE7-B609-7C232000AF88">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_E09D47CD-482A-4298-B914-3D645FA9A0BC">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:D77518D7-68BD-403E-A214-22449C2CE517" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.9495D87C-037F-4E66-8B2B-39DCD6FF5123" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_0991228081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9928689677392 15.4356179941821 46.9927884694022 15.4350064505267 46.9925762459325 15.4350708235431 46.9926658921561 15.4356743205714 46.9928689677392 15.4356179941821</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:TaxiwayElement gml:id="uuid.98361E3B-1E67-464B-99D6-74BF15008DE0">
+						<gml:identifier codeSpace="urn:uuid:">98361E3B-1E67-464B-99D6-74BF15008DE0</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:TaxiwayElementTimeSlice gml:id="uuid.05B22492-CF37-4E26-8112-5623919F1CE5">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_55B86C91-1AA5-455F-96D6-CB396A8F0906">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_4D31661E-1D61-468A-8C88-FA76EA6677F4">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:gradeSeparation xsi:nil="true" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:associatedTaxiway xlink:href="urn:uuid:ACCB4869-8422-4C3A-BA13-FFCD3AB3F05B" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.480879E4-2316-40A1-802C-23482B2A3B7C" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_092198081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9913047169765 15.4354240972924 46.9910760215085 15.4354831058907 46.9911583519897 15.4360892851281 46.9913742402048 15.4360249121117 46.9913047169765 15.4354240972924</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:TaxiwayElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:TaxiwayElement>
+				</hasMember>
+				<hasMember>
+					<aixm:Apron gml:id="uuid.6F7554A3-5E1A-4810-ACD7-00F6E9C40F55">
+						<gml:identifier codeSpace="urn:uuid:">6F7554A3-5E1A-4810-ACD7-00F6E9C40F55</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:ApronTimeSlice gml:id="uuid.2A497CA9-27E4-401D-A7DA-004CAA7E2544">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_C7CCB5D2-A55A-4CA8-8F94-E8397CF2994E">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_76243144-7498-4A05-82C2-DF1573B8CA7B">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:name>APRON WEST</aixm:name>
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.0F2BB728-EBFB-452A-8F12-12DDFF4F0B84">
+										<aixm:composition>GRASS</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN xsi:nil="true" />
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:ApronTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Apron>
+				</hasMember>
+				<hasMember>
+					<aixm:Apron gml:id="uuid.503E8C11-8C05-42AF-800D-40F87F70B0FE">
+						<gml:identifier codeSpace="urn:uuid:">503E8C11-8C05-42AF-800D-40F87F70B0FE</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:ApronTimeSlice gml:id="uuid.F2B1036A-5A34-4252-9F42-6BAFD4C3F289">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_AB700206-4A34-4770-B179-FFD1FA99ABD1">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_EAF8DF69-D25C-4923-97E3-4AF031A081CA">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:name>APRON SOUTH</aixm:name>
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.8C7D5AF8-D52B-450B-8102-0F27A553EE44">
+										<aixm:composition>BITUM</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN>53</aixm:classPCN>
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:ApronTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Apron>
+				</hasMember>
+				<hasMember>
+					<aixm:Apron gml:id="uuid.34B7D26D-0228-4772-91A7-C1939589039C">
+						<gml:identifier codeSpace="urn:uuid:">34B7D26D-0228-4772-91A7-C1939589039C</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:ApronTimeSlice gml:id="uuid.B351E619-441E-4769-AD16-DDF1490EA0A3">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_9E76F0CF-B007-4A2D-A414-033F0E7C18C8">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_C3231756-4D2E-48D1-B7FA-189D4E08820B">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:name>APRON GAC</aixm:name>
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.A430C67D-6971-48E8-AB3D-C937550F6E61">
+										<aixm:composition>BITUM</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN>52</aixm:classPCN>
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:ApronTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Apron>
+				</hasMember>
+				<hasMember>
+					<aixm:Apron gml:id="uuid.C90D5608-21E1-42EF-87B0-CD5C01CCBA0C">
+						<gml:identifier codeSpace="urn:uuid:">C90D5608-21E1-42EF-87B0-CD5C01CCBA0C</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:ApronTimeSlice gml:id="uuid.7CAE7AD1-9F83-49F5-9E90-D96F0A245CC6">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_338C457A-8E18-4681-A6BD-2562B7730ED0">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_83D3348A-F255-4734-9A28-1662F6BBADCD">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:name>APRON MAIN</aixm:name>
+								<aixm:abandoned xsi:nil="true" />
+								<aixm:surfaceProperties>
+									<aixm:SurfaceCharacteristics gml:id="uuid.10EBE90B-7A4E-4EA3-A3C7-BAC44D784E7B">
+										<aixm:composition>BITUM</aixm:composition>
+										<aixm:preparation xsi:nil="true" />
+										<aixm:surfaceCondition xsi:nil="true" />
+										<aixm:classPCN>50</aixm:classPCN>
+										<aixm:pavementTypePCN xsi:nil="true" />
+										<aixm:pavementSubgradePCN xsi:nil="true" />
+										<aixm:maxTyrePressurePCN xsi:nil="true" />
+										<aixm:evaluationMethodPCN xsi:nil="true" />
+										<aixm:classLCN xsi:nil="true" />
+										<aixm:weightSIWL xsi:nil="true" />
+										<aixm:tyrePressureSIWL xsi:nil="true" />
+										<aixm:weightAUW xsi:nil="true" />
+									</aixm:SurfaceCharacteristics>
+								</aixm:surfaceProperties>
+								<aixm:associatedAirportHeliport xlink:href="urn:uuid:392fdf98-4791-4dba-b1cc-0a5cf8cca769" />
+							</aixm:ApronTimeSlice>
+						</aixm:timeSlice>
+					</aixm:Apron>
+				</hasMember>
+				<hasMember>
+					<aixm:ApronElement gml:id="uuid.4FEB986F-48E1-4750-BB0F-172EC8FAF572">
+						<gml:identifier codeSpace="urn:uuid:">4FEB986F-48E1-4750-BB0F-172EC8FAF572</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:ApronElementTimeSlice gml:id="uuid.7F10E26C-91EE-49DC-B001-B0AA74145740">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_B0CB8440-E3D5-4F07-8C48-1B681478E639">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_E26E286B-239A-472C-9532-4CEE07121755">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:jetwayAvailability xsi:nil="true" />
+								<aixm:towingAvailability xsi:nil="true" />
+								<aixm:dockingAvailability xsi:nil="true" />
+								<aixm:groundPowerAvailability xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:associatedApron xlink:href="urn:uuid:6F7554A3-5E1A-4810-ACD7-00F6E9C40F55" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.8B736451-D93A-49BA-A6AA-2249BD9BEF7C" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099248081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9948233931624 15.4340808417914 46.9940916124024 15.4343544271109 46.9939379371696 15.4336248662589 46.9946806967007 15.4332171704886 46.9953649044735 15.4328738477347 46.9955368697554 15.4333459165213 46.9951343969511 15.4337965276358 46.9948233931624 15.4340808417914</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:ApronElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:ApronElement>
+				</hasMember>
+				<hasMember>
+					<aixm:ApronElement gml:id="uuid.2E481A21-9848-4AF8-8D8C-80953FA36F7F">
+						<gml:identifier codeSpace="urn:uuid:">2E481A21-9848-4AF8-8D8C-80953FA36F7F</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:ApronElementTimeSlice gml:id="uuid.1C7F7567-0FA3-4912-9D39-D76E0A0FA00D">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_079DDFAE-9259-4027-812E-17F610F0FE44">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_F80EEF74-F57E-435E-B451-E90F742E88B6">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:jetwayAvailability xsi:nil="true" />
+								<aixm:towingAvailability xsi:nil="true" />
+								<aixm:dockingAvailability xsi:nil="true" />
+								<aixm:groundPowerAvailability xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:associatedApron xlink:href="urn:uuid:6F7554A3-5E1A-4810-ACD7-00F6E9C40F55" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.5801921E-D5AA-40E5-AE03-53BB53E6FD4D" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099802581">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9907326101569 15.4449813392279 46.9905899027721 15.443908455622 46.9930012404809 15.4432486322043 46.9931110104734 15.4442893293021 46.9907326101569 15.4449813392279</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:ApronElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:ApronElement>
+				</hasMember>
+				<hasMember>
+					<aixm:ApronElement gml:id="uuid.6922FCD0-FE03-4372-9B6F-A55A61BF7C3C">
+						<gml:identifier codeSpace="urn:uuid:">6922FCD0-FE03-4372-9B6F-A55A61BF7C3C</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:ApronElementTimeSlice gml:id="uuid.692FF958-731E-4F13-9126-811B045241D1">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_193F39B6-5F56-4D62-8049-F6062AFC24B1">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_E6D54BB3-B428-4061-B72A-85FA5180A9EA">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:jetwayAvailability xsi:nil="true" />
+								<aixm:towingAvailability xsi:nil="true" />
+								<aixm:dockingAvailability xsi:nil="true" />
+								<aixm:groundPowerAvailability xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:associatedApron xlink:href="urn:uuid:503E8C11-8C05-42AF-800D-40F87F70B0FE" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.156F6AD8-CA31-4585-B2AF-D3CCF8450B3F" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099268081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9907326101569 15.4449813392279 46.9905899027721 15.443908455622 46.9930012404809 15.4432486322043 46.9931110104734 15.4442893293021 46.9907326101569 15.4449813392279</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:ApronElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:ApronElement>
+				</hasMember>
+				<hasMember>
+					<aixm:ApronElement gml:id="uuid.6E0A7977-5E9A-4A4F-8613-5BF2B7E07BD4">
+						<gml:identifier codeSpace="urn:uuid:">6E0A7977-5E9A-4A4F-8613-5BF2B7E07BD4</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:ApronElementTimeSlice gml:id="uuid.69F4A306-50F3-4F1E-823E-B0FE6017BFF0">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_FC1B66DA-F59A-447F-8F7E-8B3CB65D73D6">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_40C88ADA-C63E-48C4-83A4-7817A5B6DD16">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:jetwayAvailability xsi:nil="true" />
+								<aixm:towingAvailability xsi:nil="true" />
+								<aixm:dockingAvailability xsi:nil="true" />
+								<aixm:groundPowerAvailability xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:associatedApron xlink:href="urn:uuid:34B7D26D-0228-4772-91A7-C1939589039C" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.842C5067-5D76-4182-AB00-E9A61FF373B0" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099278081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.9933462551522 15.444226881631 46.9932272397032 15.4433127164868 46.9942492115554 15.4430396049085 46.9942854329839 15.4433089232705 46.9945700290682 15.4432330589432 46.9946476459191 15.4438627328599 46.9933462551522 15.444226881631</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:ApronElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:ApronElement>
+				</hasMember>
+				<hasMember>
+					<aixm:ApronElement gml:id="uuid.A917CCB1-B40F-43A3-9E40-6ACBE0A008A4">
+						<gml:identifier codeSpace="urn:uuid:">A917CCB1-B40F-43A3-9E40-6ACBE0A008A4</gml:identifier>
+						<gml:boundedBy xsi:nil="true" />
+						<aixm:timeSlice>
+							<aixm:ApronElementTimeSlice gml:id="uuid.B7D7B3E7-6211-4F2B-86EA-7A4DBAF883E5">
+								<gml:validTime>
+									<gml:TimePeriod gml:id="ID_0DA98272-6C34-4494-BAD3-7E3AE7F8241C">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition>2020-10-15T00:00:00Z</gml:endPosition>
+									</gml:TimePeriod>
+								</gml:validTime>
+								<aixm:interpretation>BASELINE</aixm:interpretation>
+								<aixm:sequenceNumber>1</aixm:sequenceNumber>
+								<aixm:correctionNumber>0</aixm:correctionNumber>
+								<aixm:featureLifetime>
+									<gml:TimePeriod gml:id="ID_00A6F257-C82D-4A75-A0E3-CB216723D386">
+										<gml:beginPosition>2015-12-21T18:00:00Z</gml:beginPosition>
+										<gml:endPosition indeterminatePosition="unknown" />
+									</gml:TimePeriod>
+								</aixm:featureLifetime>
+								<aixm:type>NORMAL</aixm:type>
+								<aixm:jetwayAvailability xsi:nil="true" />
+								<aixm:towingAvailability xsi:nil="true" />
+								<aixm:dockingAvailability xsi:nil="true" />
+								<aixm:groundPowerAvailability xsi:nil="true" />
+								<aixm:length xsi:nil="true" />
+								<aixm:width xsi:nil="true" />
+								<aixm:associatedApron xlink:href="urn:uuid:C90D5608-21E1-42EF-87B0-CD5C01CCBA0C" />
+								<aixm:surfaceProperties xsi:nil="true" />
+								<aixm:extent>
+									<aixm:ElevatedSurface gml:id="uuid.EAD633F3-A9C0-4824-B7B5-33A5783B741A" srsName="urn:ogc:def:crs:EPSG::4326">
+										<gml:patches>
+											<gml:PolygonPatch>
+												<gml:exterior>
+													<gml:Ring>
+														<gml:curveMember>
+															<gml:Curve gml:id="ID_099828081">
+																<gml:segments>
+																	<gml:GeodesicString>
+																		<gml:posList>46.994576461305 15.4432342138775 46.9990511033387 15.4420272198208 46.9994425709569 15.4450742092618 46.9976352105301 15.4455731001385 46.9975547193726 15.4455248203763 46.9972839754983 15.4434756126889 46.9972034838117 15.44330931573 46.9970425000747 15.4432020273694 46.994649639168 15.443856486369 46.994576461305 15.4432342138775</gml:posList>
+																	</gml:GeodesicString>
+																</gml:segments>
+															</gml:Curve>
+														</gml:curveMember>
+													</gml:Ring>
+												</gml:exterior>
+											</gml:PolygonPatch>
+										</gml:patches>
+										<aixm:horizontalAccuracy xsi:nil="true" />
+										<aixm:elevation xsi:nil="true" />
+										<aixm:geoidUndulation xsi:nil="true" />
+										<aixm:verticalDatum xsi:nil="true" />
+										<aixm:verticalAccuracy xsi:nil="true" />
+									</aixm:ElevatedSurface>
+								</aixm:extent>
+							</aixm:ApronElementTimeSlice>
+						</aixm:timeSlice>
+					</aixm:ApronElement>
+				</hasMember>
+			</AIXMBasicMessage>

@@ -1,0 +1,31 @@
+{
+     "type": "Feature",
+     "geometry": {
+              "type": "Point",
+              "coordinates": [23.57666015625,  46.81509864599243]
+           }
+}
+
+
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [30, 10]
+  },
+  "properties": {
+    "name": "Dinagat Islands"
+  }
+}
+
+
+{
+  "type": "Feature",
+  "properties": {
+    "population": 200
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [10.724029, 59.926807]
+  }
+}

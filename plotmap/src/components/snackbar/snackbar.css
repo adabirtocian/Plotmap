@@ -1,0 +1,8 @@
+.md-button-content {
+  color: #ffc4ff;
+  font-weight: 300;
+}
+
+.md-snackbar.plotmap-snackbar {
+  width: fit-content;
+}

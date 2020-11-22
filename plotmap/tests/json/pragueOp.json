@@ -1,0 +1,110 @@
+{
+	"aircraft_comments": "string",
+	"airspace_authorization": "00000000-0000-4444-8888-FEEDDEADBEEF",
+	"contact": {
+		"comments": "string",
+		"email_addresses": [
+			"string"
+		],
+		"name": "string",
+		"phone_numbers": [
+			"string"
+		]
+	},
+	"contingency_plans": [{
+			"contingency_cause": [
+				"LOST_C2_UPLINK"
+			],
+			"contingency_id": 1,
+			"contingency_location_description": "PREPROGRAMMED",
+			"contingency_polygon": {
+					"type": "Polygon",
+					"coordinates": [[[24.6689688, 59.462573], [24.6681427, 59.4610984], [24.6695536, 59.4598582], [24.6724449, 59.4594384], [24.675036, 59.4602289], [24.6757923, 59.4616191], [24.6744459, 59.4629819], [24.6712916, 59.4633226], [24.6689688, 59.462573]]]
+				},
+			"contingency_response": "LANDING",
+			"free_text": "string",
+			"loiter_altitude": {
+				"altitude_value": 0,
+				"source": "ONBOARD_SENSOR",
+				"units_of_measure": "FT",
+				"vertical_reference": "W84"
+			},
+			"relative_preference": 2,
+			"relevant_operation_volumes": [
+				0
+			],
+			"valid_time_begin": "2015-08-20T14:11:56.118Z",
+			"valid_time_end": "2021-08-20T14:11:56.118Z"
+		}
+	],
+	"controller_location": {
+		"coordinates": [0.0, 0.0],
+		"type": "Point"
+	},
+	"discovery_reference": "110,117,10",
+	"faa_rule": "PART_107",
+	"flight_comments": "string",
+	"flight_number": "string",
+	"gcs_location": {
+		"coordinates": [0.0, 0.0],
+		"type": "Point"
+	},
+	"gufi": "00000000-0000-4444-8888-FEEDDEADBEEF",
+	"metadata": {
+		"call_sign": "string",
+		"data_collection": false,
+		"data_quality_engineer": "string",
+		"event_id": "string",
+		"free_text": "string",
+		"location": "string",
+		"modified": false,
+		"scenario": "string",
+		"setting": "LAB",
+		"source": "HWITL",
+		"test_card": "string",
+		"test_run": "string",
+		"test_type": "GROUND",
+		"ting": "LAB"
+	},
+	"operation_volumes": [{
+			"actual_time_end": "2015-08-20T14:11:56.118Z",
+			"beyond_visual_line_of_sight": false,
+			"effective_time_begin": "2015-08-20T14:11:56.118Z",
+			"effective_time_end": "2021-08-20T14:11:56.118Z",
+			"max_altitude": {
+				"altitude_value": 0,
+				"source": "ONBOARD_SENSOR",
+				"units_of_measure": "FT",
+				"vertical_reference": "W84"
+			},
+			"min_altitude": {
+				"altitude_value": 0,
+				"source": "ONBOARD_SENSOR",
+				"units_of_measure": "FT",
+				"vertical_reference": "W84"
+			},
+			"near_structure": false,
+			"operation_geography": {
+					"type": "Polygon",
+					"coordinates": [[[24.6689688, 59.462573], [24.6681427, 59.4610984], [24.6695536, 59.4598582], [24.6724449, 59.4594384], [24.675036, 59.4602289], [24.6757923, 59.4616191], [24.6744459, 59.4629819], [24.6712916, 59.4633226], [24.6689688, 59.462573]]]
+				},
+			"ordinal": 0,
+			"volume_type": "TBOV"
+		}
+	],
+	"priority_elements": {
+		"priority_level": "EMERGENCY",
+		"priority_status": "NONE"
+	},
+	"state": "PROPOSED",
+	"submit_time": "2019-08-20T14:11:56.118Z",
+	"uas_registrations": [{
+			"drone_id": "serby_test_no_drone",
+			"registration_id": "98705412-8c28-11e9-bc42-526af7764f64",
+			"registration_location": "string"
+		}
+	],
+	"update_time": "2019-08-20T14:11:56.118Z",
+	"uss_name": "utmbeta.arc.nasa.gov",
+	"volumes_description": "string"
+}
